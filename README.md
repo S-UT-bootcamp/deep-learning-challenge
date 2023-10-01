@@ -23,13 +23,26 @@ The final step revolves around optimizing the model's architecture and hyperpara
 ### Results:
 
 #### Data Preprocessing
-    - We removed the 'EIN' and 'NAME' columns because they didn't contain useful data for the model.
+
+**What variable(s) are the target(s) for your model?**
     - We set 'IS_SUCCESSFUL' as the target variable.
+**What variable(s) are the features for your model?**
+    - APPLICATION_TYPE
+    - AFFILIATION                  
+    - CLASSIFICATION              
+    - USE_CASE                     
+    - ORGANIZATION                 
+    - STATUS                       
+    - INCOME_AMT                   
+    - SPECIAL_CONSIDERATIONS       
+    - ASK_AMT                                
+**What variable(s) should be removed from the input data because they are neither targets nor features?**
+    - I removed the 'EIN' and 'NAME' columns because they didn't contain useful data for the model.
+ 
 
 
 ## Compiling, Training, and Evaluating the Model
 
-#### Neural Network Model Configuration
 
 **How many neurons, layers, and activation functions did you select for your neural network model, and why?**
 
