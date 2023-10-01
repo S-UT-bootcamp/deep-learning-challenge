@@ -10,17 +10,17 @@ The objective of this project is to develop a binary classifier tool using machi
     - Model Compilation, Training, and Evaluation
     - Model Optimization
 
-Data Preprocessing:
+#### Data Preprocessing:
 
-In this stage, we prepare and clean the data to make it suitable for training a neural network.
+    In this stage, we prepare and clean the data to make it suitable for training a neural network.
 
-Model Compilation, Training, and Evaluation:
+#### Model Compilation, Training, and Evaluation:
 
-We proceed with the compilation, training, and evaluation of the machine learning model. This phase involves selecting appropriate loss functions, optimizers, and performance metrics to assess the model's effectiveness.
+    We proceed with the compilation, training, and evaluation of the machine learning model. This phase involves selecting appropriate loss functions, optimizers, and performance metrics to assess the model's effectiveness.
 
-Model Optimization:
+#### Model Optimization:
 
-The final step revolves around optimizing the model's architecture and hyperparameters to enhance its predictive capabilities and overall performance.
+    The final step revolves around optimizing the model's architecture and hyperparameters to enhance its predictive capabilities and overall performance.
 
 ### Results:
 
@@ -28,14 +28,20 @@ The final step revolves around optimizing the model's architecture and hyperpara
     - We removed the 'EIN' and 'NAME' columns because they didn't contain useful data for the model.
     - We set 'IS_SUCCESSFUL' as the target variable.
 
-What variable(s) are the target(s) for your model?
-What variable(s) are the features for your model?
-What variable(s) should be removed from the input data because they are neither targets nor features?
 
-
-Compiling, Training, and Evaluating the Model
+#### Compiling, Training, and Evaluating the Model
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
+
+    Since we have a mix of categorical and numerical features, I used an input layer with the number of neurons equal to the total number of unique values across all categorical columns. In my case, it's 17 + 6 + 71 + 5 + 4 + 9 = 112 neurons for the categorical features.
+
+    I used with 2  hidden layers.
+
+    For the output layer, since it's a binary classification problem (IS_SUCCESSFUL), I used a sigmoid activation function.
+
+    For binary classification, I used 'binary_crossentropy' as the loss function
+
+    
 Were you able to achieve the target model performance?
 What steps did you take in your attempts to increase model performance?
 
