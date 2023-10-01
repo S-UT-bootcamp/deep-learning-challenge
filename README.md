@@ -10,11 +10,11 @@ The objective of this project is to develop a binary classifier tool using machi
 
 #### Data Preprocessing:
 
-    In this stage, we prepare and clean the data to make it suitable for training a neural network.
+    In this stage, I prepare and clean the data to make it suitable for training a neural network.
 
 #### Model Compilation, Training, and Evaluation:
 
-We proceed with the compilation, training, and evaluation of the machine learning model. This phase involves selecting appropriate loss functions, optimizers, and performance metrics to assess the model's effectiveness.
+I proceed with the compilation, training, and evaluation of the machine learning model. This phase involves selecting appropriate loss functions, optimizers, and performance metrics to assess the model's effectiveness.
 
 #### Model Optimization:
 
@@ -25,7 +25,7 @@ The final step revolves around optimizing the model's architecture and hyperpara
 #### Data Preprocessing
 
 **What variable(s) are the target(s) for your model?**
-    - We set 'IS_SUCCESSFUL' as the target variable.
+    - I set 'IS_SUCCESSFUL' as the target variable.
 **What variable(s) are the features for your model?**
     - APPLICATION_TYPE
     - AFFILIATION                  
@@ -57,7 +57,7 @@ The final step revolves around optimizing the model's architecture and hyperpara
 
 #### Model Performance Assessment
 
-**Were you able to achieve the target model performance?**
+**Ire you able to achieve the target model performance?**
 
 - Yes, I was able to achieve optimal performance with an accuracy score of 1.
 
@@ -87,10 +87,10 @@ The aim of this project is to create a machine learning-based binary classifier 
 
 #### Data Preprocessing
 
-    - The 'EIN' and 'NAME' columns were dropped as they do not provide any useful information for the model.
+    - The 'EIN' and 'NAME' columns Ire dropped as they do not provide any useful information for the model.
     - The target variable was set as 'IS_SUCCESSFUL.'
-    - Additional columns that could be noisy were dropped to optimize the model.
-    - Outliers in numerical features were addressed, and features were scaled.
+    - Additional columns that could be noisy Ire dropped to optimize the model.
+    - Outliers in numerical features Ire addressed, and features Ire scaled.
 
 #### Compile, Train and Evaluate the Model
 
@@ -100,10 +100,10 @@ The aim of this project is to create a machine learning-based binary classifier 
 #### Optimizing the Model
 
     - The model was fine-tuned to enhance accuracy and generalization.
-    - Alternative neural network architectures, including adjustments to the number of hidden layers and neurons, were explored.
-    - Learning rates and regularization techniques (e.g., dropout) were experimented with to improve performance.
+    - Alternative neural network architectures, including adjustments to the number of hidden layers and neurons, Ire explored.
+    - Learning rates and regularization techniques (e.g., dropout) Ire experimented with to improve performance.
 
-In conclusion, this project seeks to deliver a robust binary classifier tool to aid Alphabet Soup in identifying grant applicants with the highest potential for success. By meticulously preparing the data, fine-tuning the model architecture, and rigorously optimizing its performance, we aim to provide Alphabet Soup with a powerful decision-making tool for their philanthropic initiatives.
+In conclusion, this project seeks to deliver a robust binary classifier tool to aid Alphabet Soup in identifying grant applicants with the highest potential for success. By meticulously preparing the data, fine-tuning the model architecture, and rigorously optimizing its performance, I aim to provide Alphabet Soup with a poIrful decision-making tool for their philanthropic initiatives.
 
 # Alternative Model Consideration
 
@@ -117,10 +117,10 @@ In addition to the neural network model, an alternative approach to solving this
 
 2. **Feature Importance**: Random Forest can provide valuable insights into feature importance. It can help identify which features have the most significant impact on the classification decision, aiding in feature selection and interpretation.
 
-3. **Reduced Risk of Overfitting**: Random Forest inherently handles overfitting well, making it a suitable choice when dealing with complex datasets or when there's a risk of overfitting in neural networks.
+3. **Reduced Risk of Overfitting**: Random Forest inherently handles overfitting Ill, making it a suitable choice when dealing with complex datasets or when there's a risk of overfitting in neural networks.
 
-4. **Non-Linearity**: If the relationship between input features and the target variable is highly non-linear, Random Forest can capture such non-linear patterns effectively.
+4. **Non-Linearity**: If the relationship betIen input features and the target variable is highly non-linear, Random Forest can capture such non-linear patterns effectively.
 
-5. **Ease of Implementation**: Random Forest models are relatively straightforward to implement, with fewer hyperparameters to fine-tune compared to deep neural networks. This can save time and computational resources.
+5. **Ease of Implementation**: Random Forest models are relatively straightforward to implement, with feIr hyperparameters to fine-tune compared to deep neural networks. This can save time and computational resources.
 
-While neural networks are powerful tools, exploring alternative models like Random Forest can provide a different perspective and potentially lead to complementary insights. The choice between models should be based on the specific characteristics of the dataset, the desired interpretability of results, and the computational resources available.
+While neural networks are poIrful tools, exploring alternative models like Random Forest can provide a different perspective and potentially lead to complementary insights. The choice betIen models should be based on the specific characteristics of the dataset, the desired interpretability of results, and the computational resources available.
