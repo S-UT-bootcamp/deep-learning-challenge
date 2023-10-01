@@ -27,9 +27,9 @@ The objective of this project is to develop a binary classifier tool using machi
     - We set 'IS_SUCCESSFUL' as the target variable.
 
 
-#### Compiling, Training, and Evaluating the Model
+## Compiling, Training, and Evaluating the Model
 
-# Neural Network Model Configuration
+#### Neural Network Model Configuration
 
 **How many neurons, layers, and activation functions did you select for your neural network model, and why?**
 
@@ -41,9 +41,9 @@ The objective of this project is to develop a binary classifier tool using machi
 
 - To address binary classification, I utilized 'binary_crossentropy' as the loss function, a standard choice for such tasks.
 
-![Alt text](image.png)
+    <img src="image.png" alt="Alt text" width="400" />
 
-# Model Performance Assessment
+#### Model Performance Assessment
 
 **Were you able to achieve the target model performance?**
 
@@ -51,35 +51,38 @@ The objective of this project is to develop a binary classifier tool using machi
 
 **What steps did you take in your attempts to increase model performance?**
 
-1. **First Attempt**:
-   - I added more hidden layers, which resulted in a slight improvement in performance.
-![Alt text](image-1.png){ width=1 }
+    1. **First Attempt**:
+    - I added more hidden layers, which resulted in a slight improvement in performance.
 
-2. **Second Attempt**:
-   - I adjusted the number of neurons to match the number of features.
-   ![Alt text](image-2.png){ width=100 }
+<img src="image-1.png" alt="Alt text" width="400" />
 
-3. **Third Attempt**:
-   - I conducted a trial where I dropped the 'ASK_AMT' column.
-    ![Alt text](image-3.png){ width=100 }
+    2. **Second Attempt**:
+    - I adjusted the number of neurons to match the number of features.
+
+<img src="image-2.png" alt="Alt text" width="400" />
+
+    3. **Third Attempt**:
+    - I conducted a trial where I dropped the 'ASK_AMT' column.
+    
+<img src="image-3.png" alt="Alt text" width="400" />
 
 # Project Summary
 
     The aim of this project is to create a machine learning-based binary classifier tool for Alphabet Soup, a nonprofit foundation, to assist them in selecting the applicants for funding with the highest potential for success in their ventures. The dataset used for this analysis contains various measures on 34,000 organizations that have been funded by Alphabet Soup. The project includes three key phases:
 
-## Data Preprocessing
+#### Data Preprocessing
 
     - The 'EIN' and 'NAME' columns were dropped as they do not provide any useful information for the model.
     - The target variable was set as 'IS_SUCCESSFUL.'
     - Additional columns that could be noisy were dropped to optimize the model.
     - Outliers in numerical features were addressed, and features were scaled.
 
-## Compile, Train and Evaluate the Model
+#### Compile, Train and Evaluate the Model
 
     - The neural network model architecture was defined, including the number of neurons in hidden layers.
     - Different activation functions (e.g., 'relu')
 
-## Optimizing the Model
+#### Optimizing the Model
 
     - The model was fine-tuned to enhance accuracy and generalization.
     - Alternative neural network architectures, including adjustments to the number of hidden layers and neurons, were explored.
