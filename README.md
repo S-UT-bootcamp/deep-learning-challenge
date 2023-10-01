@@ -14,11 +14,11 @@ The objective of this project is to develop a binary classifier tool using machi
 
 #### Model Compilation, Training, and Evaluation:
 
-    We proceed with the compilation, training, and evaluation of the machine learning model. This phase involves selecting appropriate loss functions, optimizers, and performance metrics to assess the model's effectiveness.
+We proceed with the compilation, training, and evaluation of the machine learning model. This phase involves selecting appropriate loss functions, optimizers, and performance metrics to assess the model's effectiveness.
 
 #### Model Optimization:
 
-    The final step revolves around optimizing the model's architecture and hyperparameters to enhance its predictive capabilities and overall performance.
+The final step revolves around optimizing the model's architecture and hyperparameters to enhance its predictive capabilities and overall performance.
 
 ### Results:
 
@@ -63,12 +63,12 @@ The objective of this project is to develop a binary classifier tool using machi
 
     3. **Third Attempt**:
     - I conducted a trial where I dropped the 'ASK_AMT' column.
-    
+
 <img src="image-3.png" alt="Alt text" width="400" />
 
 # Project Summary
 
-    The aim of this project is to create a machine learning-based binary classifier tool for Alphabet Soup, a nonprofit foundation, to assist them in selecting the applicants for funding with the highest potential for success in their ventures. The dataset used for this analysis contains various measures on 34,000 organizations that have been funded by Alphabet Soup. The project includes three key phases:
+The aim of this project is to create a machine learning-based binary classifier tool for Alphabet Soup, a nonprofit foundation, to assist them in selecting the applicants for funding with the highest potential for success in their ventures. The dataset used for this analysis contains various measures on 34,000 organizations that have been funded by Alphabet Soup. The project includes three key phases:
 
 #### Data Preprocessing
 
@@ -88,24 +88,24 @@ The objective of this project is to develop a binary classifier tool using machi
     - Alternative neural network architectures, including adjustments to the number of hidden layers and neurons, were explored.
     - Learning rates and regularization techniques (e.g., dropout) were experimented with to improve performance.
 
-    In conclusion, this project seeks to deliver a robust binary classifier tool to aid Alphabet Soup in identifying grant applicants with the highest potential for success. By meticulously preparing the data, fine-tuning the model architecture, and rigorously optimizing its performance, we aim to provide Alphabet Soup with a powerful decision-making tool for their philanthropic initiatives.
+In conclusion, this project seeks to deliver a robust binary classifier tool to aid Alphabet Soup in identifying grant applicants with the highest potential for success. By meticulously preparing the data, fine-tuning the model architecture, and rigorously optimizing its performance, we aim to provide Alphabet Soup with a powerful decision-making tool for their philanthropic initiatives.
 
 # Alternative Model Consideration
 
 **Describe how you could use a different model to solve the same problem, and explain why you would use that model.**
 
-    In addition to the neural network model, an alternative approach to solving this binary classification problem (predicting 'IS_SUCCESSFUL' or not) could involve the use of a Random Forest classifier.
+In addition to the neural network model, an alternative approach to solving this binary classification problem (predicting 'IS_SUCCESSFUL' or not) could involve the use of a Random Forest classifier.
 
 **Why Consider a Random Forest?**
 
-    1. **Ensemble Learning**: Random Forest is an ensemble learning method that combines multiple decision trees to make predictions. This ensemble approach often results in robust and accurate predictions.
+1. **Ensemble Learning**: Random Forest is an ensemble learning method that combines multiple decision trees to make predictions. This ensemble approach often results in robust and accurate predictions.
 
-    2. **Feature Importance**: Random Forest can provide valuable insights into feature importance. It can help identify which features have the most significant impact on the classification decision, aiding in feature selection and interpretation.
+2. **Feature Importance**: Random Forest can provide valuable insights into feature importance. It can help identify which features have the most significant impact on the classification decision, aiding in feature selection and interpretation.
 
-    3. **Reduced Risk of Overfitting**: Random Forest inherently handles overfitting well, making it a suitable choice when dealing with complex datasets or when there's a risk of overfitting in neural networks.
+3. **Reduced Risk of Overfitting**: Random Forest inherently handles overfitting well, making it a suitable choice when dealing with complex datasets or when there's a risk of overfitting in neural networks.
 
-    4. **Non-Linearity**: If the relationship between input features and the target variable is highly non-linear, Random Forest can capture such non-linear patterns effectively.
+4. **Non-Linearity**: If the relationship between input features and the target variable is highly non-linear, Random Forest can capture such non-linear patterns effectively.
 
-    5. **Ease of Implementation**: Random Forest models are relatively straightforward to implement, with fewer hyperparameters to fine-tune compared to deep neural networks. This can save time and computational resources.
+5. **Ease of Implementation**: Random Forest models are relatively straightforward to implement, with fewer hyperparameters to fine-tune compared to deep neural networks. This can save time and computational resources.
 
-    While neural networks are powerful tools, exploring alternative models like Random Forest can provide a different perspective and potentially lead to complementary insights. The choice between models should be based on the specific characteristics of the dataset, the desired interpretability of results, and the computational resources available.
+While neural networks are powerful tools, exploring alternative models like Random Forest can provide a different perspective and potentially lead to complementary insights. The choice between models should be based on the specific characteristics of the dataset, the desired interpretability of results, and the computational resources available.
