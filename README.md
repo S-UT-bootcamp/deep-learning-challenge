@@ -53,8 +53,7 @@ The final step revolves around optimizing the model's architecture and hyperpara
 - For the output layer, I employed a sigmoid activation function since the problem at hand is binary classification (predicting 'IS_SUCCESSFUL' or not).
 
 - To address binary classification, I utilized 'binary_crossentropy' as the loss function, a standard choice for such tasks.
-
-    <img src="image.png" alt="Alt text" width="400" />
+<img src="image.png" alt="Alt text" width="400" />
 
 #### Model Performance Assessment
 
@@ -69,15 +68,18 @@ The final step revolves around optimizing the model's architecture and hyperpara
 
 <img src="image-1.png" alt="Alt text" width="400" />
 
+
     2. **Second Attempt**:
     - I adjusted the number of neurons to match the number of features.
 
 <img src="image-2.png" alt="Alt text" width="400" />
 
+
     3. **Third Attempt**:
     - I conducted a trial where I dropped the 'ASK_AMT' column.
 
 <img src="image-3.png" alt="Alt text" width="400" />
+
 
 # Project Summary
 
